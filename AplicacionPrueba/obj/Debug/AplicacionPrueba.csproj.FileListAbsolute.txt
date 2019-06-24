@@ -1,0 +1,11 @@
+C:\Users\Axel\source\repos\AplicacionPrueba\AplicacionPrueba\bin\Debug\AplicacionPrueba.exe.config
+C:\Users\Axel\source\repos\AplicacionPrueba\AplicacionPrueba\bin\Debug\AplicacionPrueba.exe
+C:\Users\Axel\source\repos\AplicacionPrueba\AplicacionPrueba\bin\Debug\AplicacionPrueba.pdb
+C:\Users\Axel\source\repos\AplicacionPrueba\AplicacionPrueba\obj\Debug\AplicacionPrueba.csprojAssemblyReference.cache
+C:\Users\Axel\source\repos\AplicacionPrueba\AplicacionPrueba\obj\Debug\AplicacionPrueba.Form1.resources
+C:\Users\Axel\source\repos\AplicacionPrueba\AplicacionPrueba\obj\Debug\AplicacionPrueba.Properties.Resources.resources
+C:\Users\Axel\source\repos\AplicacionPrueba\AplicacionPrueba\obj\Debug\AplicacionPrueba.csproj.GenerateResource.cache
+C:\Users\Axel\source\repos\AplicacionPrueba\AplicacionPrueba\obj\Debug\AplicacionPrueba.csproj.CoreCompileInputs.cache
+C:\Users\Axel\source\repos\AplicacionPrueba\AplicacionPrueba\obj\Debug\AplicacionPrueba.exe
+C:\Users\Axel\source\repos\AplicacionPrueba\AplicacionPrueba\obj\Debug\AplicacionPrueba.pdb
+C:\Users\Axel\source\repos\AplicacionPrueba\AplicacionPrueba\obj\Debug\AplicacionPrueba.ventana2.resources
