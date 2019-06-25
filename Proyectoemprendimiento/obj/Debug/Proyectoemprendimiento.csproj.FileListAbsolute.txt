@@ -1,0 +1,13 @@
+C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\bin\Debug\Proyectoemprendimiento.exe.config
+C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\bin\Debug\Proyectoemprendimiento.exe
+C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\bin\Debug\Proyectoemprendimiento.pdb
+C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.csprojAssemblyReference.cache
+C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.Form1.resources
+C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.Properties.Resources.resources
+C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.csproj.GenerateResource.cache
+C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.csproj.CoreCompileInputs.cache
+C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.exe
+C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.pdb
+C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\bin\Debug\MiLibreria.dll
+C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\bin\Debug\MiLibreria.pdb
+C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.csproj.CopyComplete

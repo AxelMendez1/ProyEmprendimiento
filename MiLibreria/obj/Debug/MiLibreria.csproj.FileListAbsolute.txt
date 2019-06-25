@@ -1,0 +1,5 @@
+C:\Users\Axel\source\repos\Proyectoemprendimiento\MiLibreria\bin\Debug\MiLibreria.dll
+C:\Users\Axel\source\repos\Proyectoemprendimiento\MiLibreria\bin\Debug\MiLibreria.pdb
+C:\Users\Axel\source\repos\Proyectoemprendimiento\MiLibreria\obj\Debug\MiLibreria.csproj.CoreCompileInputs.cache
+C:\Users\Axel\source\repos\Proyectoemprendimiento\MiLibreria\obj\Debug\MiLibreria.dll
+C:\Users\Axel\source\repos\Proyectoemprendimiento\MiLibreria\obj\Debug\MiLibreria.pdb
