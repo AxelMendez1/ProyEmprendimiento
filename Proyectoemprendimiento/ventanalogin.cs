@@ -13,9 +13,9 @@ using MiLibreria;
 
 namespace Proyectoemprendimiento
 {
-    public partial class Form1 : Form
+    public partial class ventanalogin : Form
     {
-        public Form1()
+        public ventanalogin()
         {
             InitializeComponent();
         }
@@ -32,8 +32,20 @@ namespace Proyectoemprendimiento
                 string contra = DS.Tables[0].Rows[0]["Password"].ToString().Trim();
 
                 if (cuenta == txtnomacc.Text.Trim() && contra == txtpass.Text.Trim())
+
+                {
+                    if (Convert.ToBoolean(DS.Tables[0].Rows[0]["Status admin"]) ==true)
                     {
-                    MessageBox.Show("Se ha iniciado");
+                        ventanadmin VenAd = new ventanadmin();
+                        this.Hide();
+                        VenAd.Show();
+                    }
+                    else
+                    {
+                        ventanauser VeNus = new ventanauser();
+                        this.Hide();
+                        VeNus.Show();
+                    }
                 }
                 
 
@@ -52,6 +64,16 @@ namespace Proyectoemprendimiento
         private void Txtnomacc_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void PictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Ventanalogin_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

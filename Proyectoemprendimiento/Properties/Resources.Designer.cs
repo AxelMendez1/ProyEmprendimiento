@@ -63,9 +63,39 @@ namespace Proyectoemprendimiento.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _295128 {
+            get {
+                object obj = ResourceManager.GetObject("295128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap follower_user_man_login_512 {
+            get {
+                object obj = ResourceManager.GetObject("follower-user-man-login-512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap image5b6c238f54ce0 {
             get {
                 object obj = ResourceManager.GetObject("image5b6c238f54ce0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap thumb_1920_421600 {
+            get {
+                object obj = ResourceManager.GetObject("thumb-1920-421600", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

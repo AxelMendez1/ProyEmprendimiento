@@ -11,3 +11,17 @@ C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\obj\Deb
 C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\bin\Debug\MiLibreria.dll
 C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\bin\Debug\MiLibreria.pdb
 C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.csproj.CopyComplete
+C:\Git\Myproyecto\Proyectoemprendimiento\bin\Debug\Proyectoemprendimiento.exe.config
+C:\Git\Myproyecto\Proyectoemprendimiento\bin\Debug\Proyectoemprendimiento.exe
+C:\Git\Myproyecto\Proyectoemprendimiento\bin\Debug\Proyectoemprendimiento.pdb
+C:\Git\Myproyecto\Proyectoemprendimiento\bin\Debug\MiLibreria.dll
+C:\Git\Myproyecto\Proyectoemprendimiento\bin\Debug\MiLibreria.pdb
+C:\Git\Myproyecto\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.ventanadmin.resources
+C:\Git\Myproyecto\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.ventanalogin.resources
+C:\Git\Myproyecto\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.Properties.Resources.resources
+C:\Git\Myproyecto\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.ventanauser.resources
+C:\Git\Myproyecto\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.csproj.GenerateResource.cache
+C:\Git\Myproyecto\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.csproj.CoreCompileInputs.cache
+C:\Git\Myproyecto\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.csproj.CopyComplete
+C:\Git\Myproyecto\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.exe
+C:\Git\Myproyecto\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.pdb
