@@ -33,20 +33,21 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
+            this.lblcodigo = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lblus = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblnomus = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(36, 210);
+            this.pictureBox1.Location = new System.Drawing.Point(63, 191);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(123, 99);
+            this.pictureBox1.Size = new System.Drawing.Size(151, 120);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 23;
             this.pictureBox1.TabStop = false;
             // 
@@ -86,13 +87,14 @@
             this.button1.Text = "Contenedor principal";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // label6
+            // lblcodigo
             // 
-            this.label6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label6.Location = new System.Drawing.Point(102, 142);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(112, 22);
-            this.label6.TabIndex = 17;
+            this.lblcodigo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblcodigo.Location = new System.Drawing.Point(102, 142);
+            this.lblcodigo.Name = "lblcodigo";
+            this.lblcodigo.Size = new System.Drawing.Size(112, 22);
+            this.lblcodigo.TabIndex = 17;
+            this.lblcodigo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label5
             // 
@@ -103,13 +105,14 @@
             this.label5.TabIndex = 16;
             this.label5.Text = "Codigo:";
             // 
-            // label4
+            // lblus
             // 
-            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label4.Location = new System.Drawing.Point(102, 95);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(112, 23);
-            this.label4.TabIndex = 15;
+            this.lblus.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblus.Location = new System.Drawing.Point(102, 95);
+            this.lblus.Name = "lblus";
+            this.lblus.Size = new System.Drawing.Size(112, 23);
+            this.lblus.TabIndex = 15;
+            this.lblus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
             // 
@@ -120,13 +123,14 @@
             this.label3.TabIndex = 14;
             this.label3.Text = "Usuario:";
             // 
-            // label2
+            // lblnomus
             // 
-            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label2.Location = new System.Drawing.Point(102, 47);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(112, 25);
-            this.label2.TabIndex = 13;
+            this.lblnomus.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblnomus.Location = new System.Drawing.Point(102, 47);
+            this.lblnomus.Name = "lblnomus";
+            this.lblnomus.Size = new System.Drawing.Size(112, 25);
+            this.lblnomus.TabIndex = 13;
+            this.lblnomus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
             // 
@@ -147,15 +151,17 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.lblcodigo);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.lblus);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblnomus);
             this.Controls.Add(this.label1);
             this.Name = "ventanauser";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ventanauser";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Ventanauser_FormClosed);
+            this.Load += new System.EventHandler(this.Ventanauser_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -169,11 +175,11 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblcodigo;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblus;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblnomus;
         private System.Windows.Forms.Label label1;
     }
 }

@@ -1,8 +1,6 @@
 C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\bin\Debug\Proyectoemprendimiento.exe.config
 C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\bin\Debug\Proyectoemprendimiento.exe
 C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\bin\Debug\Proyectoemprendimiento.pdb
-C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.csprojAssemblyReference.cache
-C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.Form1.resources
 C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.Properties.Resources.resources
 C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.csproj.GenerateResource.cache
 C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.csproj.CoreCompileInputs.cache
@@ -25,3 +23,7 @@ C:\Git\Myproyecto\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.csproj
 C:\Git\Myproyecto\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.csproj.CopyComplete
 C:\Git\Myproyecto\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.exe
 C:\Git\Myproyecto\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.pdb
+C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.ventanadmin.resources
+C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.ventanalogin.resources
+C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.ventanauser.resources
+C:\Users\Axel\source\repos\Proyectoemprendimiento\Proyectoemprendimiento\obj\Debug\Proyectoemprendimiento.csprojAssemblyReference.cache

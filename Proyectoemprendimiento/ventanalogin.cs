@@ -11,6 +11,7 @@ using System.Data.SqlClient;
 using MiLibreria;
 
 
+
 namespace Proyectoemprendimiento
 {
     public partial class ventanalogin : Form
@@ -19,22 +20,27 @@ namespace Proyectoemprendimiento
         {
             InitializeComponent();
         }
+        public static string codigo= "";
 
         private void Button1_Click(object sender, EventArgs e)
         {
-          try
+            try
             {
-                string CMD = string.Format("Select * FROM Usuarios WHERE Account ='{0}' AND password = '{1}'", txtnomacc.Text.Trim(), txtpass.Text.Trim());
+                string CMD = string.Format("Select * FROM Usuarios WHERE account ='{0}' AND password ='{1}'", txtnomacc.Text.Trim(), txtpass.Text.Trim());
 
-                DataSet DS = Utilidades.Ejecutar(CMD);
+                DataSet ds = Utilidades.Ejecutar(CMD);
 
-                string cuenta = DS.Tables[0].Rows[0]["Account"].ToString().Trim();
-                string contra = DS.Tables[0].Rows[0]["Password"].ToString().Trim();
+                string cuenta = ds.Tables[0].Rows[0]["account"].ToString().Trim();
+                string contra = ds.Tables[0].Rows[0]["password"].ToString().Trim();
+
+                codigo = ds.Tables[0].Rows[0]["id_usuario"].ToString().Trim();
 
                 if (cuenta == txtnomacc.Text.Trim() && contra == txtpass.Text.Trim())
-
                 {
-                    if (Convert.ToBoolean(DS.Tables[0].Rows[0]["Status admin"]) ==true)
+                }
+               
+                {
+                    if (Convert.ToBoolean(ds.Tables[0].Rows[0]["Status_admin"]) == true)
                     {
                         ventanadmin VenAd = new ventanadmin();
                         this.Hide();
@@ -52,13 +58,13 @@ namespace Proyectoemprendimiento
             }
             catch
             {
-                MessageBox.Show("Contraseña o usuario incorrecta");
+                MessageBox.Show("Contraseña o usuario incorrecto");
             }
         }
 
         private void Button2_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
 
         private void Txtnomacc_TextChanged(object sender, EventArgs e)
@@ -74,6 +80,16 @@ namespace Proyectoemprendimiento
         private void Ventanalogin_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void Label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Ventanalogin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MiLibreria;
 
 namespace Proyectoemprendimiento
 {
@@ -24,6 +25,16 @@ namespace Proyectoemprendimiento
 
         private void Ventanadmin_Load(object sender, EventArgs e)
         {
+            String cmd = "Select * FROM usuarios WHERE id_usuario=" + ventanalogin.codigo;
+
+            DataSet DS = Utilidades.Ejecutar(cmd);
+            lblnomadmin.Text = DS.Tables[0].Rows[0]["Nom_usu"].ToString();
+            lblusadmin.Text = DS.Tables[0].Rows[0]["account"].ToString();
+            lblcodigo.Text = DS.Tables[0].Rows[0]["id_usuario"].ToString();
+
+            string url = DS.Tables[0].Rows[0]["Foto"].ToString();
+
+            pictureBox1.Image = Image.FromFile(url);
 
         }
 

@@ -20,6 +20,7 @@ namespace MiLibreria
             SqlDataAdapter DP = new SqlDataAdapter(cmd, Con);
 
             DP.Fill(DS);
+
             Con.Close();
 
             return DS;
